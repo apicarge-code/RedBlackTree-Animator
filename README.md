@@ -12,6 +12,8 @@
   - 🔴 红色节点：表示双红冲突
   - ⚫ 黑色节点：表示平衡节点
 
+![Red-Black Tree Animation](animation.gif)
+
 ## 技术栈
 
 - **C++17**：核心逻辑实现
