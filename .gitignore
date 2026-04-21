@@ -1,0 +1,15 @@
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+
+.vscode/
+
+imgui.ini
+
+build/
+bin/
+
+*.log
+*.tmp

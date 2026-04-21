@@ -1,0 +1,10 @@
+^D:\REDBLACKTREE-ANIMATOR\BUILD2\CMAKEFILES\0BCA4A438DD8F00C2A3CFFA10A53DE36\GENERATE.STAMP.RULE
+setlocal
+D:\mingw64\bin\cmake.exe -SD:/RedBlackTree-Animator -BD:/RedBlackTree-Animator/build2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/RedBlackTree-Animator/build2/RedBlackTree-Animator.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

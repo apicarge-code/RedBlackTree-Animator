@@ -1,0 +1,1336 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/mingw64/share/cmake-4.3/Modules/"
+    found: "D:/mingw64/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.5.3+60a3d41e9
+      鐢熸垚鍚姩鏃堕棿涓?2026/4/20 20:52:49銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.83
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/RedBlackTree-Animator/build2/CMakeFiles/4.3.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link"
+      - "D:/Python314/Scripts/lld-link.com"
+      - "D:/Python314/Scripts/lld-link.exe"
+      - "D:/Python314/Scripts/lld-link"
+      - "D:/Python314/lld-link.com"
+      - "D:/Python314/lld-link.exe"
+      - "D:/Python314/lld-link"
+      - "D:/Java/jdk-17/bin/lld-link.com"
+      - "D:/Java/jdk-17/bin/lld-link.exe"
+      - "D:/Java/jdk-17/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link.com"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link.exe"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/mingw64/bin/lld-link.com"
+      - "D:/mingw64/bin/lld-link.exe"
+      - "D:/mingw64/bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/mt.com"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/mt.exe"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/mt"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/mt.com"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/mt.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/mt"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/mt.com"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/mt.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/mt"
+      - "D:/Python314/Scripts/mt.com"
+      - "D:/Python314/Scripts/mt.exe"
+      - "D:/Python314/Scripts/mt"
+      - "D:/Python314/mt.com"
+      - "D:/Python314/mt.exe"
+      - "D:/Python314/mt"
+      - "D:/Java/jdk-17/bin/mt.com"
+      - "D:/Java/jdk-17/bin/mt.exe"
+      - "D:/Java/jdk-17/bin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/mt.com"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/mt.exe"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/mingw64/bin/mt.com"
+      - "D:/mingw64/bin/mt.exe"
+      - "D:/mingw64/bin/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/cursor/resources/app/bin/mt.com"
+      - "D:/cursor/resources/app/bin/mt.exe"
+      - "D:/cursor/resources/app/bin/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+      - "C:/Users/DELL/AppData/Roaming/npm/mt.com"
+      - "C:/Users/DELL/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/DELL/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/mingw64/share/cmake-4.3/Modules/"
+    found: "D:/mingw64/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.5.3+60a3d41e9
+      鐢熸垚鍚姩鏃堕棿涓?2026/4/20 20:52:53銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.86
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/RedBlackTree-Animator/build2/CMakeFiles/4.3.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+    searched_directories:
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/lld-link"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/lld-link"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link.com"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/lld-link"
+      - "D:/Python314/Scripts/lld-link.com"
+      - "D:/Python314/Scripts/lld-link.exe"
+      - "D:/Python314/Scripts/lld-link"
+      - "D:/Python314/lld-link.com"
+      - "D:/Python314/lld-link.exe"
+      - "D:/Python314/lld-link"
+      - "D:/Java/jdk-17/bin/lld-link.com"
+      - "D:/Java/jdk-17/bin/lld-link.exe"
+      - "D:/Java/jdk-17/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link.com"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link.exe"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/mingw64/bin/lld-link.com"
+      - "D:/mingw64/bin/lld-link.exe"
+      - "D:/mingw64/bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/DELL/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/mingw64/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "D:/mingw64/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "D:/mingw64/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/"
+      - "D:/Python314/Scripts/"
+      - "D:/Python314/"
+      - "D:/Java/jdk-17/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/mingw64/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/DELL/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/mingw64/bin/"
+      - "D:/mingw64/sbin/"
+      - "D:/mingw64/"
+      - "C:/Program Files/RedBlackTree-Animator/bin/"
+      - "C:/Program Files/RedBlackTree-Animator/sbin/"
+      - "C:/Program Files/RedBlackTree-Animator/"
+    searched_directories:
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/rc.com"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/rc.exe"
+      - "C:/Users/DELL/.trae-cn/tools/trae-gopls/current/rc"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/rc.com"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/rc.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/workspaces/9261f3ca/versions/node/current/rc"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/rc.com"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/rc.exe"
+      - "C:/Users/DELL/.trae-cn/sdks/versions/node/current/rc"
+      - "D:/Python314/Scripts/rc.com"
+      - "D:/Python314/Scripts/rc.exe"
+      - "D:/Python314/Scripts/rc"
+      - "D:/Python314/rc.com"
+      - "D:/Python314/rc.exe"
+      - "D:/Python314/rc"
+      - "D:/Java/jdk-17/bin/rc.com"
+      - "D:/Java/jdk-17/bin/rc.exe"
+      - "D:/Java/jdk-17/bin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/rc.com"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/rc.exe"
+      - "D:/BaiduNetdiskDownload/MinGW/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/mingw64/bin/rc.com"
+      - "D:/mingw64/bin/rc.exe"
+      - "D:/mingw64/bin/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/DELL/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/cursor/resources/app/bin/rc.com"
+      - "D:/cursor/resources/app/bin/rc.exe"
+      - "D:/cursor/resources/app/bin/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/Users/DELL/AppData/Roaming/npm/rc.com"
+      - "C:/Users/DELL/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/DELL/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/mingw64/bin/rc.com"
+      - "D:/mingw64/bin/rc.exe"
+      - "D:/mingw64/bin/rc"
+      - "D:/mingw64/sbin/rc.com"
+      - "D:/mingw64/sbin/rc.exe"
+      - "D:/mingw64/sbin/rc"
+      - "D:/mingw64/rc.com"
+      - "D:/mingw64/rc.exe"
+      - "D:/mingw64/rc"
+      - "C:/Program Files/RedBlackTree-Animator/bin/rc.com"
+      - "C:/Program Files/RedBlackTree-Animator/bin/rc.exe"
+      - "C:/Program Files/RedBlackTree-Animator/bin/rc"
+      - "C:/Program Files/RedBlackTree-Animator/sbin/rc.com"
+      - "C:/Program Files/RedBlackTree-Animator/sbin/rc.exe"
+      - "C:/Program Files/RedBlackTree-Animator/sbin/rc"
+      - "C:/Program Files/RedBlackTree-Animator/rc.com"
+      - "C:/Program Files/RedBlackTree-Animator/rc.exe"
+      - "C:/Program Files/RedBlackTree-Animator/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\DELL\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\workspaces\\9261f3ca\\versions\\node\\current"
+        - "c:\\Users\\DELL\\.trae-cn\\sdks\\versions\\node\\current"
+        - "D:\\Python314\\Scripts\\"
+        - "D:\\Python314\\"
+        - "D:\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\BaiduNetdiskDownload\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\mingw64\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\DELL\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\DELL\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/RedBlackTree-Animator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/mingw64"
+        - "C:/Program Files/RedBlackTree-Animator"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-g2kcyw"
+      binary: "D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-g2kcyw"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-g2kcyw'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2026/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3a3d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.5.3+60a3d41e9
+        鐢熸垚鍚姩鏃堕棿涓?2026/4/20 20:52:56銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-g2kcyw\\cmTC_3a3d1.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-g2kcyw\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3a3d1.dir\\Debug\\cmTC_3a3d1.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3a3d1.dir\\Debug\\cmTC_3a3d1.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3a3d1.dir\\Debug\\cmTC_3a3d1.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3a3d1.dir\\Debug\\\\" /Fd"cmTC_3a3d1.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35728 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3a3d1.dir\\Debug\\\\" /Fd"cmTC_3a3d1.dir\\Debug\\vc145.pdb" /external:W3 /TC /errorReport:queue "D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-g2kcyw\\Debug\\cmTC_3a3d1.exe" /INCREMENTAL /ILK:"cmTC_3a3d1.dir\\Debug\\cmTC_3a3d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-g2kcyw/Debug/cmTC_3a3d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-g2kcyw/Debug/cmTC_3a3d1.lib" /MACHINE:X64  /machine:x64 cmTC_3a3d1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3a3d1.vcxproj -> D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-g2kcyw\\Debug\\cmTC_3a3d1.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3a3d1.dir\\Debug\\cmTC_3a3d1.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3a3d1.dir\\Debug\\cmTC_3a3d1.tlog\\cmTC_3a3d1.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-g2kcyw\\cmTC_3a3d1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.34
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-n3o4wg"
+      binary: "D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-n3o4wg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-n3o4wg'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2026/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_717d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.5.3+60a3d41e9
+        鐢熸垚鍚姩鏃堕棿涓?2026/4/20 20:53:01銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-n3o4wg\\cmTC_717d0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-n3o4wg\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_717d0.dir\\Debug\\cmTC_717d0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_717d0.dir\\Debug\\cmTC_717d0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_717d0.dir\\Debug\\cmTC_717d0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_717d0.dir\\Debug\\\\" /Fd"cmTC_717d0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35728 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_717d0.dir\\Debug\\\\" /Fd"cmTC_717d0.dir\\Debug\\vc145.pdb" /external:W3 /TP /errorReport:queue "D:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Microsoft Visual Studio\\2026\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-n3o4wg\\Debug\\cmTC_717d0.exe" /INCREMENTAL /ILK:"cmTC_717d0.dir\\Debug\\cmTC_717d0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-n3o4wg/Debug/cmTC_717d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/RedBlackTree-Animator/build2/CMakeFiles/CMakeScratch/TryCompile-n3o4wg/Debug/cmTC_717d0.lib" /MACHINE:X64  /machine:x64 cmTC_717d0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_717d0.vcxproj -> D:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-n3o4wg\\Debug\\cmTC_717d0.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_717d0.dir\\Debug\\cmTC_717d0.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_717d0.dir\\Debug\\cmTC_717d0.tlog\\cmTC_717d0.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\RedBlackTree-Animator\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-n3o4wg\\cmTC_717d0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.40
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/mingw64/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/mingw64/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Microsoft Visual Studio/2026/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
